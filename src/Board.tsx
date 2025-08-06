@@ -1,7 +1,7 @@
 import React from 'react'
 import Cardcomp from './components/card';
 
-function Board() {
+function board() {
     // Types for reference
 type CardType = {
  id: number;
@@ -77,4 +77,4 @@ const reducer = (state, action) => {
   )
 }
 
-export default Board
+export default board
